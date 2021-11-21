@@ -1,0 +1,261 @@
+*{
+    margin: 0pt;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+.primerheader{
+    background-color: rgba(34, 34, 34, 1);
+    color: rgba(243, 243, 243, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 20px;
+}
+.primerheader span{
+    margin-left: 90px;
+}
+.primerheader ul{
+    display: flex;
+    margin-right: 52px;
+    justify-content: space-evenly;
+    width: 200px;
+}
+.segundoheader{
+    background-color: rgba(240, 168, 62, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 1024px;
+    height: 62px;
+    justify-content: space-between;
+    align-items: center;
+}
+.segundoheader img{
+    width: 166.38px;
+    height: 23px;
+    margin-left: 40px;
+}
+.categorias{
+    display: flex;
+    width: 500px;
+    height: 15px;
+    justify-content: space-around;
+    margin-right: 40px;
+
+}
+.paw{
+    width: 15px;
+    height: 14px;
+    margin-right: 1px;
+}
+
+.fondocomedero{
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 1025px;
+    height: 409px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+}
+.esunplacer{
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 1);
+    width: 365px;
+    height: 54px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.comederosdesc{
+    margin-right: 95px;
+    margin-left: 140px;
+    font-size: 16px;
+    margin-top: 12px;
+    color: rgba(60, 35, 19, 1);
+    font-size: 16px;
+}
+.comederos{
+    background-color: rgba(240, 168, 62, 1);
+    border: none;
+    width: 141px;
+    height: 49px;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 117px;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.patita{
+    color: rgba(240, 168, 62, 1);
+    text-align: center;
+    width: 1024px;
+    height: 71px;
+    margin-top: 20px;
+    font-size: 65px;
+}
+h1{
+    font-size: 40px;
+    width: 1024px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.prod2{
+    display: flex;
+    width: 290px;
+    height: 18px;
+    justify-content:space-between;
+    font-size: 15px;
+    margin-left: 380px;
+}
+.productosdestacados{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 1024px;
+    height: 312px;
+    margin-top: 49px;
+}
+article{
+    background-color:rgba(251, 250, 246, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+}
+.imagenes{
+    width: 265px;
+    height: 268.86px;
+}
+
+
+.precio{
+    color: rgba(240, 168, 62, 1);
+    font-size: 15px;
+}
+.contactanos{
+    margin-top: 78px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    width: 1024px;
+    font-weight: bold;
+}
+.formulario{
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 41px;
+    height: 150px;
+}
+.formulario button{
+    background-color:rgba(60, 35, 19, 1);
+    border: none;
+    border-radius: 10%;
+    width: 340px;
+    height: 40px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+}
+
+.botones{
+    width: 1024px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    color: rgba(255, 255, 255, 1);
+
+}
+.reset{
+    border: none;
+    width: 110px;
+    height: 34px;
+    border-radius: 10%;
+    background-color: rgba(138, 135, 135, 1);
+    margin-right: 6px;
+    color: rgba(255, 255, 255, 1);
+}
+.enviar{
+    border: none;
+    width: 110px;
+    height: 34px;
+    background-color: rgba(240, 168, 62, 1);
+    border-radius: 10%;
+    color: rgba(255, 255, 255, 1);
+}
+.f1{
+    background-color: rgba(240, 168, 62, 1);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 60px;
+}
+.f1 p{
+    font-weight: 700px;
+    font-size: 20px;
+}
+.imgmail{
+    width: 40px;
+    height: 40px;
+    margin-left: 23px;
+}
+.correo{
+    background-color: rgba(255, 255, 255, 1);
+    width: 271px;
+    height: 40px;
+    border:none;
+    border-radius: 10%;
+    color: rgba(160, 160, 160, 1);
+    font-size: 9px;
+    text-align: left;
+    margin-left: 270px;
+}
+.suscr{
+    background-color: rgba(60, 35, 19, 1);
+    width: 70px;
+    height: 34px;
+    border:none;
+    border-radius: 10%;
+    margin-right: 47px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 9px;
+}
+.f2{
+    background-color: rgba(60, 35, 19, 1);
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+.f2 div{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.logofinal{
+    background-color: rgba(60, 35, 19, 1);
+    width: 166px;
+    height: 23px;
+    align-self: flex-end;
+}
+
+.derechos{
+    background-color: rgba(34, 34, 34, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 10px;
+    width: 1024px;
+}
